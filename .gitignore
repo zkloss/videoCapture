@@ -1,0 +1,41 @@
+﻿# Build outputs
+build/
+debug/
+release/
+*.o
+*.obj
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.a
+*.zip
+*.7z
+*.rar
+
+# Qt Creator / IDE local files
+.qtcreator/
+*.pro.user
+*.pro.user.*
+
+# Local runtime/output media
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+*.log
+
+# Large third-party binaries copied from local SDKs
+3rdparty/
+include/
+3rdparty/bin/
+3rdparty/**/bin/
+3rdparty/**/lib/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
