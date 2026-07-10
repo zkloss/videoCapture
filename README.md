@@ -2,16 +2,6 @@
 
 基于 Qt Widgets、FFmpeg 和 OpenCV 的桌面视频录制软件。项目包含采集、解码、滤镜、编码、复用、渲染、事件队列和 UI 等模块，可作为学习 Qt + FFmpeg/OpenCV 音视频处理流程的示例工程。
 
-## 项目来源
-
-本项目基于 `liuhangAntonio/videoCapture` 修改而来。
-
-- 原项目地址：https://gitee.com/liuhangantonio/videoCapture
-- 原项目许可证：GPL-2.0
-- 当前仓库用途：保存本人在原项目基础上的学习、适配和少量修改
-
-本仓库保留原项目的 GPL-2.0 许可证要求。若你继续分发、修改或发布本项目，请继续遵守 GPL-2.0。
-
 ## 功能概览
 
 - Qt Widgets 桌面界面
@@ -171,7 +161,3 @@ LIBS += -L$$PWD\3rdparty\ffmpeg-amf\lib
 ### 4. 为什么不提交第三方库？
 
 FFmpeg/OpenCV 依赖体积较大，且二进制发布涉及各自许可证和平台差异。公开仓库保留源码更清爽，也更适合 GitHub。
-
-## License
-
-本项目基于原 GPL-2.0 项目修改，继续遵循 GPL-2.0 许可证。详见 `LICENSE`。
